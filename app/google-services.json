@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "589261600526",
+    "firebase_url": "https://billing-a4bc1.firebaseio.com",
+    "project_id": "billing-a4bc1",
+    "storage_bucket": "billing-a4bc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589261600526:android:7b67197a02898743",
+        "android_client_info": {
+          "package_name": "com.example.priya.finalone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589261600526-kbt8f2g7trdk1n06n18r38h00nq7102u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.priya.finalone",
+            "certificate_hash": "9a2be97edd6dcf398d53239ba6dfd40f097a012d"
+          }
+        },
+        {
+          "client_id": "589261600526-d8ehjh34cap3peuiuot2ot5u8uj7bku9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU8k3heWizLTM8eS4TNDL4LWHkvvDMshY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589261600526-d8ehjh34cap3peuiuot2ot5u8uj7bku9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

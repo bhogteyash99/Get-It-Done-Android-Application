@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_background"
+    tools:context=".createActivity">
+    <EditText
+        android:id="@+id/nameData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/nameId"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/warrentyData"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/amtId3"
+        app:layout_constraintTop_toBottomOf="@+id/batteryData" />
+
+
+
+    <EditText
+        android:id="@+id/vehData"
+        android:layout_width="214dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/vechId"
+        app:layout_constraintTop_toBottomOf="@+id/mobileData" />
+
+
+    <TextView
+        android:id="@+id/amtId"
+        android:layout_width="133dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="Amount"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/amtId3" />
+
+    <TextView
+        android:id="@+id/amtId3"
+        android:layout_width="133dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="Battery-Warrenty"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/batteryId" />
+
+    <TextView
+        android:id="@+id/amtId2"
+        android:layout_width="133dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="Date"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/amtId" />
+
+    <TextView
+        android:id="@+id/nameId"
+        android:layout_width="133dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Name"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/addressId"
+        android:layout_width="133dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Address"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameId" />
+
+    <TextView
+        android:id="@+id/mobileId"
+        android:layout_width="133dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Mobile"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addressId" />
+
+    <TextView
+        android:id="@+id/vechId"
+        android:layout_width="133dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Vehicle No"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mobileId" />
+
+    <TextView
+        android:id="@+id/batteryId"
+        android:layout_width="133dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="Battery No"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/batteryId2" />
+
+    <TextView
+        android:id="@+id/batteryId2"
+        android:layout_width="133dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Battery Type"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vechId" />
+
+    <ImageButton
+        android:id="@+id/billBtn"
+        android:layout_width="111dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:onClick="billClick"
+        android:src="@mipmap/ic_background_create_small"
+        android:text="Create Bill"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/amtId2" />
+
+    <ImageButton
+        android:id="@+id/sendBtn"
+        android:layout_width="111dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:src="@mipmap/ic_background_send"
+        android:text="Send Bill"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/billBtn"
+        app:layout_constraintTop_toBottomOf="@+id/dateData" />
+
+    <EditText
+        android:id="@+id/batteryData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/batteryId"
+        app:layout_constraintTop_toBottomOf="@+id/batteryType" />
+
+    <EditText
+        android:id="@+id/mobileData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/mobileId"
+        app:layout_constraintTop_toBottomOf="@+id/addressData" />
+
+    <EditText
+        android:id="@+id/amtData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/amtId"
+        app:layout_constraintTop_toBottomOf="@+id/warrentyData" />
+
+    <EditText
+        android:id="@+id/batteryType"
+        android:layout_width="213dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/batteryId2"
+        app:layout_constraintTop_toBottomOf="@+id/vehData" />
+
+    <EditText
+        android:id="@+id/dateData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="date"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/amtId2"
+        app:layout_constraintTop_toBottomOf="@+id/amtData" />
+
+    <EditText
+        android:id="@+id/addressData"
+        android:layout_width="216dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/addressId"
+        app:layout_constraintTop_toBottomOf="@+id/nameData" />
+
+
+</android.support.constraint.ConstraintLayout>
